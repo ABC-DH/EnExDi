@@ -6,7 +6,8 @@ This directory contains the materials of the course
 Lecturer: Marianne Reboul.
 
 # Links to colab notebooks :
-[Notebook 1 : First Steps](https://colab.research.google.com/drive/1oTFvOKyzrHAWdWnVziAGw3DOgJ15G-12?usp=sharing)
-<br>[Notebook 2 : Simple NLP](https://colab.research.google.com/drive/15bauUGnffDtzrkyAlXwkCGPRLxJPbKIa?usp=sharing)
+[Notebook 1 : First Steps](https://colab.research.google.com/drive/1l6FrC5oXpha66KglFXfNh2EwXGs62aRa?usp=sharing)
+<br>[Notebook 2 : NLP Preprocessing](https://colab.research.google.com/drive/15bauUGnffDtzrkyAlXwkCGPRLxJPbKIa?usp=sharing)
 <br>[Notebook 3 : Word Vectors](https://colab.research.google.com/drive/1vljtCs-HW_OmYW78KhMu7aexDX8nrnAu?usp=sharing)
-<br>[Notebook 4 : Named Entity Recognition](https://colab.research.google.com/drive/1aruMQ-wJOxjHDo-fD1z-dvta1UgApr94?usp=sharing)
+<br>[Notebook 4 : Transformers](https://colab.research.google.com/drive/16J5BXKegKjMDe48MD4uJBg9U_7PEkcuV?usp=sharing)
+<br>[Notebook 5 : POS with Transformers](https://colab.research.google.com/drive/1-7_gMG_oQmD8wvU0FGNDk_UDcO3dAh7X?usp=sharing)
