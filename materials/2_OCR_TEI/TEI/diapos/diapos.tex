@@ -1,0 +1,566 @@
+\documentclass[11pt,aspectratio=1610]{beamer}
+\usepackage{fbb}
+\usetheme{CambridgeUS}
+\beamertemplatenavigationsymbolsempty
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,adjustbox,mathtools}
+\usepackage{amsfonts}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{xpatch}
+\usepackage{makecell}
+\usepackage{tabularx}
+\usepackage{csquotes}
+\usepackage{adjustbox}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usetikzlibrary{shapes,calc,matrix,decorations.markings,decorations.pathreplacing,positioning, intersections,backgrounds,through,hobby}
+\usepackage[english]{babel}
+\AtBeginSection[]
+{\begin{frame}
+ \frametitle{}  
+\setlength{\itemsep}{.5cm}
+ \tableofcontents[currentsection,
+                  hideothersubsections,
+		  subsectionstyle=hide/hide/hide,
+                  subsubsectionstyle=show/show/show/hide
+                   ]
+ \end{frame} 
+ }
+
+\AtBeginSubsection[]
+{\begin{frame}
+ \frametitle{}  
+ \tableofcontents[currentsubsection,
+	 	  currentsection,
+		  sectionstyle=show/hide,
+                  subsectionstyle=show/shaded/hide
+                   ]
+ \end{frame} 
+ }
+
+
+
+\setbeamertemplate{sections/subsections in toc}[square]
+\setbeamertemplate{itemize item}[square]
+\setbeamertemplate{enumerate item}[square]
+\setbeamertemplate{itemize subitem}[square]
+
+\usepackage[style=verbose,citestyle=verbose,isbn=true,url=false,
+doi=true,backend=biber,maxbibnames=9, maxcitenames=4]{biblatex}
+\addbibresource{biblio.bib}
+\renewcommand*{\bibfont}{\tiny} 
+
+\usepackage{tikz}
+\usetikzlibrary{shapes,calc,matrix,decorations.markings,decorations.pathreplacing,positioning, intersections,backgrounds}
+\tikzstyle{bag} = [align=center]
+
+\date[June 2nd, 2025]{June 3rd, 2025}
+\author[Matthias \textsc{Gille Levenson}]{\\~\\ Matthias \textsc{Gille Levenson}\\   {\scriptsize Université Aix-Marseille, École Normale Supérieure de Lyon, France}\\ {\tiny matthias [dot] gille [-] levenson [at] ens-lyon [dot] fr}\vspace{-1cm}}
+\title[Introduction to TEI]{Introduction to TEI}
+\titlegraphic{\hspace{0.5cm}\includegraphics[scale=0.21]{/home/mgl/Bureau/Travail/admin/logos/ensl.png}\hspace{0.5cm}\includegraphics[scale=0.23]{/home/mgl/Bureau/Travail/admin/logos/ciham.pdf}\hspace{0.5cm}}
+\usepackage[justification=centering]{caption}
+\begin{document}
+\maketitle
+
+\begin{frame}
+\begin{itemize}
+\item Those slides are freely inspired by the TEI course redacted by Ariane Pinche for the 2024 EnExDi summer school: \url{https://github.com/ABC-DH/EnExDi2024/blob/main/materials/2_OCR_TEI/slides/XML_TEI.pdf}
+\end{itemize}
+\end{frame}
+
+\section{Theoric introduction}
+
+\subsection{What is the TEI?}
+\begin{frame}{What is the TEI?}
+\begin{itemize}
+\item A community 
+\item A standard
+\item A way of seeing/modelling \enquote{the} text
+\end{itemize}
+\end{frame}
+
+\subsection{A little bit of history}
+\begin{frame}{}
+\begin{itemize}
+\item Born in 1987
+\item 5 versions (actual: P5)
+\item Originally: SGML; switch to XML in 2007
+\end{itemize}
+\end{frame}
+
+\subsection{Principles}
+\begin{frame}{}
+\begin{itemize}
+\item Separate the appearance and the \enquote{essence} of textual objects
+\end{itemize}
+\begin{center}
+\begin{figure}
+\includegraphics[width=.8\textwidth]{img/texte.png}
+\includegraphics[width=.8\textwidth]{img/apparat.png}
+\caption{Fragment of an edition of the \textit{Castigos de Sancho IV}}
+\end{figure}
+\end{center}
+\end{frame}
+
+\begin{frame}{}
+\begin{itemize}
+\item Separate the appearance and the \enquote{essence} of textual objects
+\end{itemize}
+\begin{center}
+\begin{figure}
+\includegraphics[width=.8\textwidth]{img/xml_structured.png}
+\caption{Its possible representation in XML-TEI}
+\end{figure}
+\end{center}
+\end{frame}
+
+
+\subsection{The TEI, what for ?}
+\begin{frame}{The TEI, what for ?}
+\begin{itemize}
+\item Describing a text using the experience of a large community
+\item Producing semantic data that can be read by the human and by the computer
+\item Easing documents sharing and reusability
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{The TEI, what for ?}
+The TEI can be used for
+\begin{itemize}
+\item Describing a manuscript
+\item Producing the edition with multiple witnesses
+\item Encoding a set of letters
+\item Structuring a drama
+\item Describing a web-native textual object
+\item ... and so on, including other media types like speech. 
+\item Any kind of human communication could be theoretically represented in TEI, as long as there is some scientific interest in formating the information in this particular way
+\end{itemize}
+\end{frame}
+
+
+\subsection{The XML format}
+
+
+\begin{frame}{Conformance and validity}
+\begin{itemize}
+\item XML stands for \textbf{eXtensible Markup Language}.
+\item It is a format that allows to describe any kind of textual (or numeric) data 
+\item It is the actual format the TEI uses, but it might change/evolve in the future years.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Conformance and validity}
+\begin{itemize}
+\item Two important concepts
+\item A document \textbf{must} be XML conformant, that is, respect the rules of the XML format
+\item A document \textbf{may} be validated against a schema, that is a document that verifies some rules are respected
+\item Some examples of specifications: TEI, EAD, DublinCore, AltoXML, PageXML, RDF, etc...
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Conformance}
+\begin{itemize}
+\item XML is composed of elements, attributes, attribute values and text.
+\end{itemize}
+\begin{center}
+\begin{figure}
+\includegraphics[height=.5\textheight]{img/element_attribute_text.png}
+\end{figure}
+\end{center}
+\begin{itemize}
+\item There is little asumption about the types of data allowed in them in XML (hence eXtensible).
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{One node to contain them all}
+\begin{itemize}
+\item One and only one top element that contains everything else
+\end{itemize}
+\begin{center}
+\begin{figure}
+\includegraphics[height=.5\textheight]{img/element_attribute_text.png}
+\end{figure}
+\end{center}
+\end{frame}
+
+
+\begin{frame}{Conformance}
+\begin{itemize}
+\item No overlapping elements
+\end{itemize}
+\begin{center}
+\begin{figure}
+\includegraphics[width=.9\textwidth]{img/overlapping.png}
+\end{figure}
+\end{center}
+\end{frame}
+
+
+\begin{frame}{Conformance}
+\begin{itemize}
+\item Some elements can contain other elements, but elements can also be empty
+\end{itemize}
+\begin{center}
+\begin{figure}
+\includegraphics[width=.9\textwidth]{img/empty.png}
+\end{figure}
+\end{center}
+\end{frame}
+
+
+
+\begin{frame}{Conformance}
+\begin{itemize}
+\item Attribute values must be inside quotes
+\end{itemize}
+\begin{center}
+\begin{figure}
+\includegraphics[height=.5\textheight]{img/attributes.png}
+\end{figure}
+\end{center}
+\end{frame}
+
+
+
+\begin{frame}{Conformant or not ?}
+\begin{center}
+\begin{figure}
+\includegraphics[height=.8\textheight]{img/conformant.png}
+\end{figure}
+\end{center}
+\end{frame}
+
+
+
+
+\begin{frame}{Schemas}
+\begin{itemize}
+\item A schema is a document that is used to control the quality of some encoding.
+\item A schema is materialized by several data formats: DTD, RNG, RNC
+\item The TEI provides \textbf{rules and guidelines} (human readable), and \textbf{schemas} (machine readable) to check the validity of a given document
+\item The schema represents the formalisation of your modelling of a given text or genre.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Schemas}
+\begin{center}
+\begin{figure}
+\includegraphics[height=.75\textheight]{img/validation.png}
+\caption{This fragment is well-formed, but it is not TEI compliant / valid. A paragraph \texttt{p} or an anonymous block \texttt{ab} should wrap the lines.}
+\end{figure}
+\end{center}
+\end{frame}
+
+
+\begin{frame}{Schemas}
+\begin{center}
+\begin{figure}
+\includegraphics[height=.7\textheight]{img/schemas.png}
+\caption{There are multiple TEI schemas available, adapted to the user's usecases}
+\end{figure}
+\end{center}
+\end{frame}
+
+
+\begin{frame}{One Document Does it all (ODD)}
+\begin{itemize}
+\item ODD stands for \enquote{One Document Does it All}
+\item An ODD is a TEI document that is used to create documentation and schema, with a transformation script maintained by the TEI community
+\item See \cite{burnard_WhatTEIConformance_2019}
+\end{itemize}
+\end{frame}
+
+
+
+
+
+\section{TEI Fundamentals}
+
+\begin{frame}{The TEI guidelines}
+\begin{itemize}
+\item \url{https://tei-c.org/guidelines/}
+\item The TEI guidelines is the document you will consult everyday starting now. You can print it and use it as a bedside reading.
+\item The guidelines are made of two main parts: 
+\begin{itemize}
+\item a description of good editing practices, in natural language
+\item the individual description of each element (possible attributes, elements inside, elements containing the current element, etc.)
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{The TEI guidelines}
+\begin{center}
+\begin{figure}
+\includegraphics[width=.9\textwidth]{img/guidelines_nl.png}
+\caption{The natural language part of the TEI}
+\end{figure}
+\end{center}
+\end{frame}
+
+
+\begin{frame}{The TEI guidelines}
+\begin{center}
+\begin{figure}
+\includegraphics[width=.8\textwidth]{img/guidelines_elements.png}
+\caption{The description of the \texttt{lb} element (simplified to fit in the slide)}
+\end{figure}
+\end{center}
+\end{frame}
+
+
+\subsection{Main components}
+\begin{frame}
+\begin{center}
+\begin{figure}
+\includegraphics[height=.8\textheight]{img/tei_lite.png}
+\caption{The minimal TEI document}
+\end{figure}
+\end{center}
+\end{frame}
+
+
+\begin{frame}
+\begin{itemize}
+\item Two main components: data and metadata 
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{The teiHeader element}
+\begin{itemize}
+\item The \texttt{teiHeader} contains the metadata and al the information about the sources you are describing.
+\item Four main components: \texttt{fileDesc}, \texttt{encodingDesc}, \texttt{profileDesc}, \texttt{revisionDesc}. 
+% Titling and responsability
+\end{itemize}
+\end{frame}
+
+\begin{frame}{The fileDesc element}
+\begin{itemize}
+\item The \texttt{fileDesc} contains the bibliographic information about the source. It is the only mandatory component in TEI.
+\end{itemize}
+\begin{center}
+\begin{figure}
+\includegraphics[height=.67\textheight]{img/fileDesc.png}
+\caption{Example of the fileDesc taken from the TEI Guidelines}
+\end{figure}
+\end{center}
+\end{frame}
+
+
+\begin{frame}{The encodingDesc element}
+\begin{itemize}
+\item The \texttt{encodingDesc} is used to describe the principles that the editor has been following to produce the TEI document. 
+\end{itemize}
+\begin{center}
+\begin{figure}
+\includegraphics[height=.65\textheight]{img/encodingDesc.png}
+\caption{Example of the encodingDesc taken from the TEI Guidelines}
+\end{figure}
+\end{center}
+\end{frame}
+
+
+%\begin{frame}{The profileDesc element}
+%\begin{itemize}
+%\item The \texttt{profileDesc} 
+%\end{itemize}
+%\end{frame}
+
+
+
+\begin{frame}{The text}
+\begin{itemize}
+\item The \texttt{text} element contains the text \textit{per se}. It contains three main elements: \texttt{front}, \texttt{body}, \texttt{back}
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Facsimiles}
+\begin{itemize}
+\item Facsimile information is stored in a specific element after the teiHeader, in \texttt{facsimile} element. It is an element that's being used everyday more and more due to the apparition of efficient HTR algorithms.
+\item This element tends to be created automatically, as it can contain lots and lots of subelements (page and line 
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Facsimiles}
+\begin{center}
+\begin{figure}
+\includegraphics[width=.6\textwidth]{img/facsimile.png}
+\caption{The description of the elements on the page with their coordinates}
+\end{figure}
+\end{center}
+\end{frame}
+
+
+\subsection{Structure}
+\begin{frame}{Some basic structuring elements}
+\url{https://www.tei-c.org/release/doc/tei-p5-doc/en/html/DS.html}
+\begin{itemize}
+\item \texttt{div}: for any division of a text. They can be nested, and attributes like \texttt{@type} or \texttt{@n} are used to specify the type and level of structure
+\item \texttt{head}: for encoding headings
+\item \texttt{p}: for encoding paragraphs
+\item \texttt{ab} (for anonymous block): for encoding any sub-div block
+\item \texttt{lg} (line group)
+\item \texttt{l} (verse)
+\end{itemize}
+\end{frame}
+
+
+\subsection{Document layout description and material description of sources}
+\begin{frame}{Some basic structuring elements}
+\url{https://tei-c.org/release/doc/tei-p5-doc/en/html/MS.html}
+\begin{itemize}
+\item \texttt{pb}: page beginning
+\item \texttt{cb}: columns beginning
+\item \texttt{lb}: line begining
+\item \texttt{fw} (forme work): for encoding headers, footers, page number, catchwords, etc
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Some basic structuring elements}
+\begin{center}
+\begin{figure}
+\includegraphics[height=.65\textheight]{img/material_description.png}
+\end{figure}
+\end{center}
+\end{frame}
+
+\subsection{Exercise 1. Encoding a poem.}
+\begin{frame}{Shakespeare's Sonnet 18}
+\begin{itemize}
+\item Encode the Sonnet 18, available in the github repo: \texttt{materials/2\_OCR\_TEI/TEI/data/sonnet\_18.txt}
+\item The \enquote{verse} section of the guidelines will help you here:   \url{https://www.tei-c.org/release/doc/tei-p5-doc/en/html/VE.html}
+\item The type of each stanza has to be specified, as well as its position in the poem when it is relevant
+\end{itemize}
+\end{frame}
+
+
+
+\subsection{Editing documents}
+\begin{frame}{Editing documents}
+\begin{itemize}
+\item \url{https://www.tei-c.org/release/doc/tei-p5-doc/en/html/TC.html}
+\item \texttt{app}: the apparatus entry
+\item \texttt{lem}: the accepted reading, that will be shown in the edition
+\item \texttt{rdg}: the rejected reading(s), that might be indicated in the apparatus 
+\end{itemize}
+\begin{center}
+\begin{figure}
+\includegraphics[width=.6\textwidth]{img/tei_app.png}
+\caption{Example of apparatus modelling (taken from  the TEI Guidelines)}
+\end{figure}
+\end{center}
+\end{frame}
+
+
+\begin{frame}{Editing documents}
+\begin{itemize}
+\item Each witness, manuscript or print, has to be specified with an attribute, \texttt{@wit}
+\item The witnesses has to be described somewhere, in general in the teiHeader and more precisely in the sourceDesc: see the usage of the listWit in the guideline.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Exercise 2}
+\begin{itemize}
+\item Represent the edition by Delphine Demelas of the Chanson d'Otinel in XML-TEI. Try to preserve any information you can.
+\end{itemize}
+\end{frame}
+%\subsection{Indexes}
+%\begin{frame}{Indexing people and places}
+%\begin{itemize}
+%\item Indexing is useful for analysis purposes
+%\item It allows to point any reference to an object (person, place, other) in the text
+%\item The list of entities will be created in the teiHeader
+%\end{itemize}
+%\end{frame}
+
+
+
+
+%\subsection{Exercise 2. Encoding a complex novel.}
+%\begin{frame}{Alain Damasio, \textit{La Horde du Contrevent}}
+%\begin{itemize}
+%\item Encode three page of the novel \enquote{La Horde du Contrevent} by Alain Damasio
+%\end{itemize}
+%\end{frame}
+
+
+
+
+\section{Conclusion}
+\begin{frame}{}
+\begin{itemize}
+\item TEI-based editions without publication of the XML sources is quite unuseful
+\item Please publish your data alongside its documentation !
+\end{itemize}
+\end{frame}
+
+\subsection{What's next ? Manipulating XML trees}
+\begin{frame}{XPath}
+\begin{itemize}
+\item XPath is the base language to navigate trees
+\end{itemize}
+\begin{center}
+\begin{figure}
+\includegraphics[width=.95\textwidth]{img/xpath.png}
+\caption{A (kind of) simple XPath query, inside quotes}
+\end{figure}
+\end{center}
+\end{frame}
+
+
+\begin{frame}{XSLT}
+\begin{itemize}
+\item XSLT is a transformation language that is built on the same logic as XML: nesting
+\item It is usefull for creating complex (web-based or \LaTeX) editions
+\end{itemize}
+\begin{center}
+\begin{figure}
+\includegraphics[width=.7\textwidth]{img/xslt_example.png}
+\caption{A rule to tokenize a text into words and punctuation with XSLT}
+\end{figure}
+\end{center}
+\end{frame}
+
+\begin{frame}{XQuery}
+\begin{itemize}
+\item XQuery is a query language that is used to build XML databases and create dynamic editions.
+\end{itemize}
+\begin{center}
+\begin{figure}
+\includegraphics[width=.7\textwidth]{img/xquery.png}
+\caption{Example of query on a collection of tombstones inscriptions encoded in XML-TEI. Taken from \href{https://tei-c.org/Vault/Talks/OUCS/2006-02/exercise-xquery.pdf}{James Cummings' workshop} at TEI Conference 2006.}
+\end{figure}
+\end{center}
+\end{frame}
+
+
+
+\begin{frame}{Python}
+\begin{itemize}
+\item Python is usefull to plug external tools for text processing. It is really helpfull for NLP tasks (annotation, segmentation, etc)
+\item It can be more performant for treating large corpora than XSLT/XQuery
+\item It follows a linear logic and therefore is not adapted to in-depth transformations of XML sources (not suited for editing for instance)
+\end{itemize}
+\begin{center}
+\begin{figure}
+\includegraphics[width=.7\textwidth]{img/python_example.png}
+\caption{Some code that extracts each line of a transcription to detect hyphenated lines}
+\end{figure}
+\end{center}
+\end{frame}
+
+
+
+\begin{frame}[allowframebreaks]
+\nocite{*}
+\printbibliography
+\end{frame}
+
+\end{document}

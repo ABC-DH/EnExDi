@@ -1,0 +1,13 @@
+declare namespace tei = "http://www.tei-c.org/ns/1.0";
+for $stones in collection('/db/pc')//tei:TEI[@n < 11]
+let $stoneID := $stones/@xml:id
+let $recordTitle := $stones//tei:titleStmt/tei:title
+return
+    <ul>
+        <li>Stone ID: {data($stoneID)}</li>
+        <li>Record Title: {data($recordTitle)}</li>
+    </ul>
+    
+    
+    
+    
