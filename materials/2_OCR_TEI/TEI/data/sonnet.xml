@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <lg>
+            <lg>
+               <l>Shall I compare thee to a summer’s day?</l>
+               <l>Thou art more lovely and more temperate:</l>
+               <l> Rough winds do shake the darling buds of May,</l>
+               <l>And summer’s lease hath all too short a date:</l>
+            </lg>
+            <lg>
+               <l>Sometime too hot the eye of heaven shines,</l>
+               <l>And often is his gold complexion dimmed;</l>
+               <l>And every fair from fair sometime declines,</l>
+               <l>By chance, or nature’s changing course, untrimmed:</l>
+            </lg>
+            <lg>
+               <l>But thy eternal summer shall not fade,</l>
+               <l>Nor lose possession of that fair thou ow’st;</l>
+               <l>Nor shall Death brag thou wander’st in his shade</l>
+               <l>When in eternal lines to time thou grow’st:</l>
+            </lg>
+            <lg>
+               <l>So long as men can breathe or eyes can see,</l>
+               <l>So long lives this, and this gives life to thee.</l>
+            </lg>
+         </lg>
+      </body>
+   </text>
+</TEI>
