@@ -6,7 +6,7 @@ This directory contains the materials of the course
 Lecturer: Simone Rebora.
 
 Slides:
-- [Stylometry](https://univr-my.sharepoint.com/:p:/g/personal/simone_rebora_univr_it/ER_uEEf9LahPuf97d68xQfIBRuXDeFrOAkgzPmFuFFgP4w?e=hpvVsw)
-- [Sentiment Analysis](https://univr-my.sharepoint.com/:p:/g/personal/simone_rebora_univr_it/EYq06LnmItZBrjE7271x85QBIhO_eJ-n5qNQcP1wIKI0eA?e=Eeowck)
-- [Topic Modeling](https://univr-my.sharepoint.com/:p:/g/personal/simone_rebora_univr_it/ERC4zTEIM-RErdGwElXfFz8BB3xL5LJmeq4Cvi7EFe4f2g?e=neeccx)
+- [Stylometry](https://univr-my.sharepoint.com/:p:/g/personal/simone_rebora_univr_it/EUDMFUH9NkhNixGdMowjVGYBryswWUq3JX5JU-Fi3jGL1g?e=YwnV30)
+- [Sentiment Analysis](https://univr-my.sharepoint.com/:p:/g/personal/simone_rebora_univr_it/Eb5d4g6qlG1IrwaB9PKTkdEBE1agp1slW8-H4NrOVPC0WQ?e=gPt1lT)
+- [Topic Modeling](https://univr-my.sharepoint.com/:p:/g/personal/simone_rebora_univr_it/EfGFg2ILK-ZEkM8e3CwlSr0Bb3ArIvRQtRx6jwzwGErkvQ?e=EnEa5y)
 
