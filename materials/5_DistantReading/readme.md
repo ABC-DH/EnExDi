@@ -5,6 +5,8 @@ This directory contains the materials of the course
 
 Lecturer: Simone Rebora.
 
+Corpus forked and adapted from: https://github.com/computationalstylistics/100_english_novels
+
 Slides:
 - [Distant Reading](https://univr-my.sharepoint.com/:p:/g/personal/simone_rebora_univr_it/ESbCImN3RLNHoSVIbZvQw_cBWhFdRSOtJiMqEB8ACicAvA?e=cacNZ8)
 - [Stylometry](https://univr-my.sharepoint.com/:p:/g/personal/simone_rebora_univr_it/EUDMFUH9NkhNixGdMowjVGYBryswWUq3JX5JU-Fi3jGL1g?e=YwnV30)
