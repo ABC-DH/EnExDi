@@ -1,0 +1,25 @@
+Titolo: Esercizio Recogito - Citta, regioni e paesi
+Autore: Giovanni Pietro Vitali
+Data: 2026
+Descrizione: Testo di esercizio per l'annotazione e la georeferenziazione di luoghi con Recogito. Il testo contiene citta, regioni, paesi, spazi naturali e luoghi finzionali o ambigui.
+Lingua: IT
+Fonte: Materiale didattico per la formazione Cartografia e dati per la letteratura e le scienze umane
+Edizione: 2026
+Licenza: CC0 1.0 Universal (CC0 1.0)
+Attribuzione: Giovanni Pietro Vitali
+
+All'inizio del XX secolo, un gruppo di scrittori, artisti e giornalisti si sposta tra diverse citta d'Europa. Alcuni vengono dalla Francia, altri dall'Italia, dal Belgio, dalla Svizzera, dalla Spagna o dalla Germania. Le loro lettere, i loro taccuini e i loro articoli permettono di seguire gli spostamenti, ma anche i luoghi reali, immaginati o trasformati dalla scrittura.
+
+Il primo itinerario comincia a Parigi, in Ile-de-France, poi attraversa Lione, in Alvernia-Rodano-Alpi, prima di raggiungere Marsiglia, in Provenza-Alpi-Costa Azzurra. Da li, diversi viaggiatori partono verso Nizza, Genova, Torino e Milano. Nei loro taccuini confrontano i paesaggi della Costa Azzurra, della Liguria, del Piemonte e della Lombardia.
+
+Un secondo gruppo lascia Bruxelles, in Belgio, passa per Lilla, negli Hauts-de-France, poi raggiunge Arras, Amiens e Rouen. Gli articoli pubblicati nella stampa locale evocano spesso le Fiandre, l'Artois, la Piccardia e la Normandia come spazi di memoria, di guerra e di ricostruzione.
+
+Altre corrispondenze collegano Ginevra, Losanna e Zurigo, in Svizzera, a Strasburgo, in Alsazia, poi a Friburgo in Brisgovia e Monaco di Baviera, in Germania. Gli autori parlano del Reno, della Foresta Nera, della Baviera e delle regioni di frontiera come spazi di passaggio, traduzione e tensione culturale.
+
+Un terzo itinerario conduce verso sud-ovest: da Bordeaux a Tolosa, poi verso Pau, Bayonne e Biarritz, prima di attraversare la frontiera spagnola verso San Sebastian, Bilbao, Madrid e Barcellona. I testi associano l'Aquitania, il Paese basco, la Navarra, la Catalogna e la Castiglia a immaginari molto diversi: viaggio mondano, esilio politico, turismo letterario o ricerca delle origini.
+
+Diverse lettere menzionano anche destinazioni piu lontane. Alcuni scrittori sognano di partire verso Londra, Oxford ed Edimburgo, nel Regno Unito; altri evocano Vienna, in Austria, Praga, in Boemia, Budapest, in Ungheria, oppure Cracovia e Varsavia, in Polonia. In questi testi, l'Europa centrale appare come uno spazio insieme storico, politico e mitico.
+
+I taccuini contengono infine luoghi piu difficili da localizzare. Una « citta del Nord » sembra ispirata insieme a Lilla, Bruxelles e Gand. Una « capitale del Sud » riunisce tratti di Marsiglia, Napoli e Barcellona. Un villaggio immaginario, San Martino delle Nebbie, e situato « tra la Borgogna e il Massiccio Centrale », senza indicazioni piu precise. Una valle fittizia, la valle dell'Ombra, assomiglia insieme ai paesaggi delle Alpi, dei Pirenei e degli Appennini.
+
+In un ultimo testo, l'autore descrive un grande viaggio mediterraneo. Parte da Roma, attraversa Napoli, raggiunge Palermo, poi si imbarca verso Tunisi, Algeri e Orano. Evoca poi Atene, Istanbul, Alessandria d'Egitto e Il Cairo. Ma nel racconto pubblicato queste citta non sono piu soltanto luoghi geografici: diventano immagini di memoria, desiderio, esilio e incontro tra mondi diversi.

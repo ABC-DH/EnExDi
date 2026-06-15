@@ -1,0 +1,25 @@
+Titolo: Exercice Recogito - Villes, regions et pays
+Autore: Giovanni Pietro Vitali
+Data: 2026
+Descrizione: Texte d'exercice pour l'annotation et la georeferenciation de lieux avec Recogito. Le texte contient des villes, regions, pays, espaces naturels et lieux fictionnels ou ambigus.
+Lingua: FR
+Fonte: Materiel pedagogique pour la formation Cartographie et donnees pour la litterature et les sciences humaines
+Edizione: 2026
+Licenza: CC0 1.0 Universal (CC0 1.0)
+Attribuzione: Giovanni Pietro Vitali
+
+Au debut du XXe siecle, un groupe d'ecrivains, d'artistes et de journalistes circule entre plusieurs villes d'Europe. Certains viennent de France, d'autres d'Italie, de Belgique, de Suisse, d'Espagne ou d'Allemagne. Leurs lettres, carnets et articles permettent de suivre leurs deplacements, mais aussi les lieux reels, imagines ou transformes par l'ecriture.
+
+Le premier itineraire commence a Paris, en Ile-de-France, puis traverse Lyon, en Auvergne-Rhone-Alpes, avant de rejoindre Marseille, en Provence-Alpes-Cote d'Azur. De la, plusieurs voyageurs partent vers Nice, Genes, Turin et Milan. Dans leurs carnets, ils comparent les paysages de la Cote d'Azur, de la Ligurie, du Piemont et de la Lombardie.
+
+Un second groupe quitte Bruxelles, en Belgique, passe par Lille, dans les Hauts-de-France, puis rejoint Arras, Amiens et Rouen. Les articles publies dans la presse locale evoquent souvent la Flandre, l'Artois, la Picardie et la Normandie comme des espaces de memoire, de guerre et de reconstruction.
+
+D'autres correspondances relient Geneve, Lausanne et Zurich, en Suisse, a Strasbourg, en Alsace, puis a Fribourg-en-Brisgau et Munich, en Allemagne. Les auteurs parlent du Rhin, de la Foret-Noire, de la Baviere et des regions frontalieres comme d'espaces de passage, de traduction et de tension culturelle.
+
+Un troisieme itineraire mene vers le sud-ouest : de Bordeaux a Toulouse, puis vers Pau, Bayonne et Biarritz, avant de franchir la frontiere espagnole vers Saint-Sebastien, Bilbao, Madrid et Barcelone. Les textes associent l'Aquitaine, le Pays basque, la Navarre, la Catalogne et la Castille a des imaginaires tres differents : voyage mondain, exil politique, tourisme litteraire ou quete des origines.
+
+Plusieurs lettres mentionnent aussi des destinations plus lointaines. Certains ecrivains revent de partir vers Londres, Oxford et Edimbourg, au Royaume-Uni ; d'autres evoquent Vienne, en Autriche, Prague, en Boheme, Budapest, en Hongrie, ou encore Cracovie et Varsovie, en Pologne. Dans ces textes, l'Europe centrale apparait comme un espace a la fois historique, politique et mythique.
+
+Les carnets contiennent enfin des lieux plus difficiles a localiser. Une « ville du Nord » semble inspiree a la fois de Lille, Bruxelles et Gand. Une « capitale du Sud » reunit des traits de Marseille, Naples et Barcelone. Un village imaginaire, Saint-Martin-des-Brumes, est situe « entre la Bourgogne et le Massif central », sans indication plus precise. Une vallee fictive, la vallee de l'Ombre, ressemble a la fois aux paysages des Alpes, des Pyrenees et des Apennins.
+
+Dans un dernier texte, l'auteur decrit un grand voyage mediterraneen. Il part de Rome, traverse Naples, rejoint Palerme, puis embarque vers Tunis, Alger et Oran. Il evoque ensuite Athenes, Istanbul, Alexandrie et Le Caire. Mais dans le recit publie, ces villes ne sont plus seulement des lieux geographiques : elles deviennent des images de memoire, de desir, d'exil et de rencontre entre plusieurs mondes.

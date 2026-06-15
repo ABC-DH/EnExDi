@@ -1,0 +1,25 @@
+Titolo: Recogito Exercise - Cities, Regions and Countries
+Autore: Giovanni Pietro Vitali
+Data: 2026
+Descrizione: Exercise text for annotating and georeferencing places with Recogito. The text contains cities, regions, countries, natural spaces and fictional or ambiguous places.
+Lingua: EN
+Fonte: Teaching material for the training Mapping and Data for Literature and the Humanities
+Edizione: 2026
+Licenza: CC0 1.0 Universal (CC0 1.0)
+Attribuzione: Giovanni Pietro Vitali
+
+At the beginning of the twentieth century, a group of writers, artists and journalists travelled between several cities in Europe. Some came from France, others from Italy, Belgium, Switzerland, Spain or Germany. Their letters, notebooks and articles make it possible to follow their movements, but also the real, imagined or transformed places produced by writing.
+
+The first itinerary begins in Paris, in Ile-de-France, then crosses Lyon, in Auvergne-Rhone-Alpes, before reaching Marseille, in Provence-Alpes-Cote d'Azur. From there, several travellers leave for Nice, Genoa, Turin and Milan. In their notebooks, they compare the landscapes of the French Riviera, Liguria, Piedmont and Lombardy.
+
+A second group leaves Brussels, in Belgium, passes through Lille, in Hauts-de-France, then reaches Arras, Amiens and Rouen. Articles published in the local press often describe Flanders, Artois, Picardy and Normandy as spaces of memory, war and reconstruction.
+
+Other correspondence connects Geneva, Lausanne and Zurich, in Switzerland, with Strasbourg, in Alsace, then with Freiburg im Breisgau and Munich, in Germany. The authors speak of the Rhine, the Black Forest, Bavaria and the border regions as spaces of passage, translation and cultural tension.
+
+A third itinerary leads towards the south-west: from Bordeaux to Toulouse, then towards Pau, Bayonne and Biarritz, before crossing the Spanish border towards San Sebastian, Bilbao, Madrid and Barcelona. The texts associate Aquitaine, the Basque Country, Navarre, Catalonia and Castile with very different imaginaries: social travel, political exile, literary tourism or the search for origins.
+
+Several letters also mention more distant destinations. Some writers dream of travelling to London, Oxford and Edinburgh, in the United Kingdom; others mention Vienna, in Austria, Prague, in Bohemia, Budapest, in Hungary, or Krakow and Warsaw, in Poland. In these texts, Central Europe appears as a space that is at once historical, political and mythical.
+
+The notebooks finally contain places that are more difficult to locate. A “northern city” seems to be inspired by Lille, Brussels and Ghent at the same time. A “southern capital” combines features of Marseille, Naples and Barcelona. An imaginary village, Saint-Martin-des-Brumes, is located “between Burgundy and the Massif Central”, without any more precise indication. A fictional valley, the Valley of Shadow, resembles the landscapes of the Alps, the Pyrenees and the Apennines at the same time.
+
+In a final text, the author describes a long Mediterranean journey. He leaves Rome, crosses Naples, reaches Palermo, then sails towards Tunis, Algiers and Oran. He then mentions Athens, Istanbul, Alexandria and Cairo. Yet in the published narrative, these cities are no longer only geographical places: they become images of memory, desire, exile and encounters between several worlds.
