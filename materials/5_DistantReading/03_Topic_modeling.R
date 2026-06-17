@@ -180,9 +180,6 @@ p1 <- ggplot(
   theme_minimal() +
   facet_wrap(~topic)
 
-# show it
-p1
-
 # save it
 ggsave(p1, filename = "Topics_wordcloud.png", scale = 4)
 
